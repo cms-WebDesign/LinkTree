@@ -1,0 +1,85 @@
+/* Style Settings */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+
+body {
+    background: url('../images/pink cactus.jpeg');    
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+}
+
+#userPhoto {
+    width: 150px;
+    height: 150px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 20%;
+}
+
+#userName {
+    color: #000;
+    display: block;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+#userName h1 {
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    margin: 0 auto;
+}
+
+#userName p {
+    font-weight: 300;
+    margin-top: 5px;
+    text-transform: none;
+}
+
+i.fa {
+    margin-right: 0.3rem;
+}
+
+#links {
+    max-width: 500px;
+    width: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.link {
+    display: block;
+    box-shadow: 10px 10px black;
+    background-color: whitesmoke;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 17px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 300;
+    font-family: Brush Script MT;
+    transition: all .25s cubic-bezier(.08, .59, .29, .99);
+    border-radius: 10px;
+
+}
+
+.link:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
+    border: none;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    top: 5;
+    bottom: 0;
+    text-align: center;
+    font-size: 1.0rem;
+    font-weight: 300;
+    font-family: Apple Chancery, cursive;
+}
