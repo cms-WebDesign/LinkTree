@@ -33,6 +33,11 @@ Implement server side authentication for the admin page to ensure it is only acc
 # Diagrams
 
 ## Mockup
+I have already built the HTML part of the page and know what the page that potential customers or clients will visit. It can be seen live at [maria.maneobsessions.me](maria.maneobsessions.me) and can be seen below. This is the main interactive page that contians links to the content creators social media profiles, other websites, and online stores.
+
+![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
+
+The site owner will need to then navigate to the administrative page which will prompt for a login
 
 ## Architecture Diagrams
 
