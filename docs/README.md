@@ -30,3 +30,16 @@ As a **malicious user**, I want to **compromise the admin account** so I can **m
 ### Mitigation Criteria
 Implement server side authentication for the admin page to ensure it is only accessible by the authenticated user using a secure password. 
 
+# Diagrams
+
+## Mockup
+
+## Architecture Diagrams
+
+### Level 1: System Context
+![System Context](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/System%20Context%20Diagram.PNG)
+### Level 2: Containers
+![Containers](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/Container%20Diagram.PNG)
+
+### Level 3: Components
+![Components](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/Component%20Diagram.PNG)
