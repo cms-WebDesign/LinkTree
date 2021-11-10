@@ -1,6 +1,6 @@
 # Social Links
 
-Social links is designed to be an open source version of the [LinkTree](https://linktr.ee/) web application. The goal of the application is to give content creators and buisiness owners the ability to consolidate all of their links behind a single customizealbe WebSite. The main page of the website is used to contain links to Instagram, Facebook, Twitter, Pinterest, Other websites, or whatever the user wants all behind a single easy to remember domain that is unique for each user. Currently LinkTree only offers users to have a linktr.ee/ domain followed by the users username. For the same price a user can purchase a custom domain name and hosting service from websites like [NameCheap](https://www.namecheap.com/) for the same price as LinkTree. Social Links is an easy to deploy, use, and customize regardless of a users technical ability. It contains an admin interface that gives the user the ability to change the text, links, and colors on the main page. 
+Social links is designed to be an open-source version of the [LinkTree](https://linktr.ee/) web application. The goal of the application is to give content creators and business owners the ability to consolidate all their links behind a single customizable website. The main page of the website is used to contain links to Instagram, Facebook, Twitter, Pinterest, Other websites, or whatever the user wants all behind a single easy to remember domain that is unique for each user. Currently LinkTree only offers users to have a linktr.ee/ domain followed by the user’s username. A user can purchase a custom domain name and hosting service from websites like [NameCheap](https://www.namecheap.com/) for the same monthly price as LinkTree. Social Links is a designed to be an easier to deploy, use, and customize regardless of a user’s technical ability. It contains an admin interface that gives the user the ability to change the text, links, background image, and color scheme on the main page. 
 
 Note: The Installation and Getting Started steps assume the user has already secured a website domain and hosting provider. 
 
@@ -18,7 +18,7 @@ python manage.py createsuperuser --username admin --email admin
 ```
 Once the container is up and the admin account is created head on over to the /admin/ tab and login.
 
-Once logged in the user can customize the links, background, colors, or text on the page to their choosing. 
+Once logged in the user can customize the links, background, colors, or text on the page to their choosing. Simply save the changes and the website will be updated with the new changes. 
 
 # License
 The MIT License (MIT)
