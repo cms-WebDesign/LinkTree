@@ -32,18 +32,22 @@ Implement server side authentication for the admin page to ensure it is only acc
 
 # Diagrams
 
-## Mockup
+## Mockups
 I have already built the HTML part of the page and know what the page that potential customers or clients will visit. It can be seen live at [maria.maneobsessions.me](maria.maneobsessions.me) and can be seen below. This is the main interactive page that contians links to the content creators social media profiles, other websites, and online stores.
 
+### Main Landing Page
 ![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
 
 The site owner will need to then navigate to the administrative page which will prompt for a login.
 
+### Login Page
 ![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/loginpage.PNG)
 
-Once authenticated the user will be directed to the /edit/ page where they can edit the number and content of links, change the color, font, and background or profile image.
-
+Once authenticated the user will be directed to the /edit/ page.
+### Editing Page
 ![Edit Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/EditPage.PNG)
+
+The edit page is where the authenticated used can edit the number and content of links, change the color, font, and background or profile image.
 
 ## Architecture Diagrams
 
