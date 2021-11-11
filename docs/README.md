@@ -41,6 +41,10 @@ The site owner will need to then navigate to the administrative page which will 
 
 ![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/loginpage.PNG)
 
+Once authenticated the user will be directed to the /edit/ page where they can edit the number and content of links, change the color, font, and background or profile image.
+
+![Edit Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/EditPage.PNG)
+
 ## Architecture Diagrams
 
 ### Level 1: System Context
