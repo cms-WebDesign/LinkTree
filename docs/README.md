@@ -37,7 +37,9 @@ I have already built the HTML part of the page and know what the page that poten
 
 ![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
 
-The site owner will need to then navigate to the administrative page which will prompt for a login
+The site owner will need to then navigate to the administrative page which will prompt for a login.
+
+![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/loginpage.PNG)
 
 ## Architecture Diagrams
 
