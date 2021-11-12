@@ -33,7 +33,7 @@ Implement server side authentication for the admin page to ensure it is only acc
 # Diagrams
 
 ## Mockups
-I have already built the HTML part of the page and know what the page that potential customers or clients will visit. It can be seen live at [maria.maneobsessions.me](maria.maneobsessions.me) and can be seen below. This is the main interactive page that contians links to the content creators social media profiles, other websites, and online stores.
+I have already built the HTML and CSS parts of the main landing page; it can be seen live at [maria.maneobsessions.me](https://maria.maneobsessions.me/maria.maneobsessions.me) and can be seen below in the image. This is the main interactive page that contains links to the content creator’s social media profiles, other websites, and online stores. The goal is to add more functionality so my spouse can edit the links, color schema, and background/profile images without having to ask me to edit the HTML directly. 
 
 ### Main Landing Page
 ![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
