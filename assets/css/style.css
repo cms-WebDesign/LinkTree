@@ -18,27 +18,6 @@ body {
     border-radius: 20%;
 }
 
-#userName {
-    color: #0077cc;
-    display: block;
-    width: 100%;
-    text-align: center;
-    text-decoration: none;
-}
-
-#userName h1 {
-    font-size: 2rem;
-    font-weight: 900;
-    letter-spacing: 0.2rem;
-    margin: 0 auto;
-}
-
-#userName p {
-    font-weight: 900;
-    margin-top: 5px;
-    text-transform: none;
-}
-
 i.fa {
     margin-right: 0.3rem;
 }
