@@ -38,16 +38,17 @@ I have already built the HTML part of the page and know what the page that poten
 ### Main Landing Page
 ![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
 
-The site owner will need to then navigate to the administrative page which will prompt for a login.
+This is the main landing page that the user in User Story 1 will use to present their social media links to customers in User Story 2. In order to edit the links, the administrative user will need to navigate to the administrative page which will prompt for a login seen in the next image.
 
 ### Login Page
 ![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/loginpage.PNG)
 
-Once authenticated the user will be directed to the /edit/ page.
+The administrator in User Story 3 would authenticate on this page to access the /edit/ page in order to change the main landing page.
+
 ### Editing Page
 ![Edit Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/EditPage.PNG)
 
-The edit page is where the authenticated used can edit the number and content of links, change the color, font, and background or profile image.
+The edit page is where the administrator in User Story 3 can edit the number and content of links, change the color, font, and background or profile image.
 
 ## Architecture Diagrams
 
