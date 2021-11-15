@@ -23,7 +23,7 @@ docker-compose up
 ```
 Open another terminal and run the following commands to create the database superuser.
 ```
-docker-compose run zuri python manage.py migrate
+docker-compose run app python manage.py migrate
 docker-compose run app bash
 python manage.py createsuperuser --username admin --email admin
 ```
