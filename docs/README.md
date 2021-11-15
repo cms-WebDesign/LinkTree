@@ -36,26 +36,26 @@ Implement server side authentication for the admin page to ensure it is only acc
 I have already built the HTML and CSS parts of the main landing page; it can be seen live [here](https://maria.maneobsessions.me/) and can be seen below in the image. This is the main interactive page that contains links to the content creator’s social media profiles, other websites, and online stores. The goal is to add more functionality so my spouse can edit the links, color schema, and background/profile images without having to ask me to edit the HTML directly. 
 
 ### Main Landing Page
-![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/mainPage.PNG)
+![Main Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/images/mainPage.PNG)
 
 This is the main landing page that the user in User Story 1 will use to present their social media links to customers in User Story 2. In order to edit the links, the administrative user will need to navigate to the administrative page which will prompt for a login seen in the next image.
 
 ### Login Page
-![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/loginpage.PNG)
+![Login Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/images/loginpage.PNG)
 
 The administrator in User Story 3 would authenticate on this page to access the /edit/ page in order to change the main landing page.
 
 ### Editing Page
-![Edit Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/EditPage.PNG)
+![Edit Page](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/images/EditPage.PNG)
 
 The edit page is where the administrator in User Story 3 can edit the number and content of links, change the color, font, and background or profile image.
 
 ## Architecture Diagrams
 
 ### Level 1: System Context
-![System Context](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/System%20Context%20Diagram.PNG)
+![System Context](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/images/System%20Context%20Diagram.PNG)
 ### Level 2: Containers
-![Containers](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/Container%20Diagram.PNG)
+![Containers](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/images/Container%20Diagram.PNG)
 
 ### Level 3: Components
-![Components](https://github.com/cms-WebDesign/LinkTree/blob/main/docs/Component%20Diagram.PNG)
+![Components](https://github.com/cms-WebDesign/SocialLinks/blob/main/docs/images/Component%20Diagram.PNG)
