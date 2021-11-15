@@ -2,16 +2,19 @@ version: "3"
 services:
   db:
     image: postgres
-    volumes:
-      - ./data/db:/var/lib/postgressql/data
     environment:
       - POSTGRES_HOST_AUTH_METHOD=trust
-  web:
-    build: .
     volumes:
-      - ./code:/code
-    command:  python manage.py runserver 0.0.0.0:8000
+      - pgdata:/var/lib/posgresql/data
+  app:
+    build:
+      context: .
     ports:
       - "8000:8000"
+    volumes:
+      - ./app:/app
+    command: python manage.py runserver 0.0.0.0:8000
     depends_on:
       - db
+volumes:
+  pgdata:
