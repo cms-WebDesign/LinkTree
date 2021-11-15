@@ -27,9 +27,19 @@ docker-compose run app python manage.py migrate
 docker-compose run app bash
 python manage.py createsuperuser --username admin --email admin
 ```
+To run other django commands simply type:
+```
+docker-compose run app [cmd]
+```
+or
+```
+docker-compose exec app [cmd]
+```
+
 Once the container is up and the admin account is created head on over to the /admin/ tab and login.
 
 Once logged in the user can customize the links, background, colors, or text on the page to their choosing. Simply save the changes and the website will be updated with the new changes.
+
 
 # License
 The MIT License (MIT)
