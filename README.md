@@ -9,7 +9,7 @@ Note: The Installation and Getting Started steps assume the user has already sec
 
 ## Installation
 ```
-git clone git@github.com:cms-WebDesign/LinkTree.git
+git clone git@github.com:cms-WebDesign/SocialLinks.git
 docker-compose run app django-admin startproject app .
 ```
 Note: If on Linux you will need to adjust the file permissions as they are owned by root. To do so execute the following command
