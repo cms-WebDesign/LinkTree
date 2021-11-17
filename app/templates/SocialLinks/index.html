@@ -1,19 +1,18 @@
+{% load static %}
 <!DOCTYPE html>
-
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="UTF-8">
     <title>ManeObsessions</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
-    <link rel="icon" href="assets/imagens/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" type="text/css" href="{%static 'css/style.css' %}"/>
+    <link rel="stylesheet" type="text/css" href="{%static 'css/font-awesome.min.css' %"/>
+
 </head>
 
 <body>
     <div id="profile">
-        <img id="userPhoto" src="assets/images/mari-profile-pic.png" alt="Profile picture of Maria">
+        <img id="userPhoto" src="../static/images/mari-profile-pic.png" alt="Profile picture of Maria">
     </div>
     <div id="links">
         <a class="link" href="https://www.instagram.com/mmaria.schmmitt/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
