@@ -6,8 +6,6 @@ body {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 900;
 }
 
 #userPhoto {
@@ -52,7 +50,7 @@ i.fa {
 }
 
 footer {
-    color: #0077cc;
+/*    color: "{{ linkcolor }}"; */
     width: 100%;
     position: relative;
     top: 5;
