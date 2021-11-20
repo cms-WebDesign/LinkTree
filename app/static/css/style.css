@@ -43,7 +43,6 @@ i.fa {
     font-family: Brush Script MT;
     transition: all .25s cubic-bezier(.08, .59, .29, .99);
     border-radius: 10px;
-
 }
 
 .link:hover {
