@@ -5,7 +5,13 @@ from .models import cssEditor
 # Create your views here.
 
 def index(request):
-    linkcolor = "#000"
-    linkfont = "Brush Script MT"
-    linkbc = "whitesmoke"
-    return render(request, "SocialLinks/index.html", {"linkcolor":linkcolor, "linkfont":linkfont, "linkbc":linkbc})
+    editor = cssEditor.objects.get(pk=1)
+    return render(
+        request,
+        "SocialLinks/index.html",
+        {
+            "linkcolor":editor.link_color,
+            "linkfont":editor.link_font,
+            "linkbc":editor.link_bc
+        }
+    )
