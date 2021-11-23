@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
 
 body {
-    background: url('../images/page2-page-001.jpg');
+/*    background: url('../images/page2-page-001.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+*/
 }
 
 #userPhoto {
