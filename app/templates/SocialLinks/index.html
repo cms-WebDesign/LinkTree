@@ -12,7 +12,7 @@
 
 <body>
     <div id="profile">
-        <img id="userPhoto" src="../static/images/mari-profile-pic.png" alt="Profile picture of Maria">
+        <img id="userPhoto" src="{% get_media_prefix %}{{ profile_pic }}" alt="{{ profile_pic_title }}">
     </div>
     <div id="links">
         <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://www.instagram.com/mmaria.schmmitt/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>

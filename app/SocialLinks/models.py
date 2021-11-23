@@ -10,3 +10,7 @@ class cssEditor(models.Model):
 class Image(models.Model):
     title = models.CharField(max_length=50)
     image = models.ImageField(upload_to='images/')
+
+class backgroundImage(models.Model):
+    title = models.CharField(max_length=50)
+    image = models.ImageField(upload_to='images/')
