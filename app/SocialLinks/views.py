@@ -13,6 +13,7 @@ def index(request):
         request,
         "SocialLinks/index.html",
         {
+            "web_title":editor.title,
             "linkcolor":editor.link_color,
             "linkfont":editor.link_font,
             "linkbc":editor.link_bc,

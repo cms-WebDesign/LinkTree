@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 
 class cssEditor(models.Model):
+    title = models.CharField(max_length=20, default="Home")
     link_color = models.CharField(max_length=7, default="#000000")
     link_font = models.CharField(max_length=15, default="Brush Script MT")
     link_bc = models.CharField(max_length=7, default="#F5F5F5")
