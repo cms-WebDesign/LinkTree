@@ -4,9 +4,10 @@ from SocialLinks.models import *
 
 class cssForm(ModelForm):
     class Meta:
-        model = cssEditor
+        model = styleEditor
         fields = "__all__"
         widgets = {
-            "link_color": TextInput(attrs={"type": "color"}),
-            "link_bc": TextInput(attrs={"type": "color"})
+            "Link_Color": TextInput(attrs={"type": "color"}),
+            "Link_Background_Color": TextInput(attrs={"type": "color"}),
+            "Link_Hover_Color": TextInput(attrs={"type": "color"})
         }

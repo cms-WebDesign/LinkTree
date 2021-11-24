@@ -1,12 +1,12 @@
 from django.contrib import admin
 from SocialLinks.forms import *
-from .models import Image, backgroundImage
+from .models import profilePic, backgroundPic, styleEditor
 
 # Register your models here.
 
-@admin.register(cssEditor)
-class cssEditor(admin.ModelAdmin):
+@admin.register(styleEditor)
+class styleEditor(admin.ModelAdmin):
     form = cssForm
 
-admin.site.register(Image)
-admin.site.register(backgroundImage)
+admin.site.register(profilePic)
+admin.site.register(backgroundPic)
