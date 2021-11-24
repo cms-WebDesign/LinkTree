@@ -7,7 +7,18 @@
     <title>{{ web_title }}</title>
     <link rel="stylesheet" type="text/css" href="{%static 'css/style.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{%static 'css/font-awesome.min.css' %}"/>
-
+    <style>
+      .link {
+        color: {{ linkcolor }};
+        font-family: {{ linkfont }};
+        background-color: {{ linkbc }};
+      }
+      .link:hover {
+          background-color: rgba(255, 255, 255, 0.3);
+          color: #000000;
+          border: none;
+      }
+    </style>
 </head>
 
 <body style="background: url('{{ background_pic.url }}'); background-size: cover; background-position: center; background-attachment: fixed;">
@@ -15,28 +26,28 @@
         <img id="userPhoto" src="{{ profile_pic.url }}" alt="{{ profile_pic_title }}">
     </div>
     <div id="links">
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }};" href="https://www.instagram.com/mmaria.schmmitt/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+        <a class="link" href="https://www.instagram.com/mmaria.schmmitt/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://www.facebook.com/maria.perez.3910/" target="_blank"><i class="fa fa-facebook"
+        <a class="link" href="https://www.facebook.com/maria.perez.3910/" target="_blank"><i class="fa fa-facebook"
                 aria-hidden="true"></i> Facebook</a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://www.manedevstudio.com" target="_blank"><i class="fa fa-star-o"
+        <a class="link" href="https://www.manedevstudio.com" target="_blank"><i class="fa fa-star-o"
                 aria-hidden="true"></i>
             Visit My Website</a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="mailto:maria@manedev.co" target="_blank"><i class="fa fa-envelope"
+        <a class="link" href="mailto:maria@manedev.co" target="_blank"><i class="fa fa-envelope"
                 aria-hidden="true"></i>
                 Contact Me </a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://www.manedevstudio.com/Contact-Me/" target="_blank"><i
+        <a class="link" href="https://www.manedevstudio.com/Contact-Me/" target="_blank"><i
                 class="fa fa-address-card-o " aria-hidden="true"></i>
             Book An Appointment</a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://shop.saloninteractive.com/store/ManeDevStudio?utm_source=SalonInteractive&utm_medium=web&utm_campaign=ShareMyStore" target="_blank"><i
+        <a class="link"  href="https://shop.saloninteractive.com/store/ManeDevStudio?utm_source=SalonInteractive&utm_medium=web&utm_campaign=ShareMyStore" target="_blank"><i
                       class="fa fa-shopping-bag" aria-hidden="true"></i>
                 Purchase Products</a>
 
-        <a class="link" style="color:{{ linkcolor }}; font-family:{{ linkfont }}" href="https://leblancsalons.com/" target="_blank"><i class="fa fa-building" aria-hidden="true"></i>
+        <a class="link" href="https://leblancsalons.com/" target="_blank"><i class="fa fa-building" aria-hidden="true"></i>
             Le Blanc Salon & Suites</a>
 
     </div>
