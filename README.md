@@ -24,15 +24,11 @@ docker-compose up
 ```
 Open another terminal and run the following commands to create the database superuser.
 ```
-docker-compose run app python manage.py migrate
-docker-compose run app bash
+docker-compose exec app python manage.py migrate
+docker-compose exec app bash
 python manage.py createsuperuser --username admin --email admin
 ```
 To run other django commands simply type:
-```
-docker-compose run app [cmd]
-```
-or
 ```
 docker-compose exec app [cmd]
 ```
@@ -41,7 +37,9 @@ Once the container is up and the admin account is created head on over to the /a
 
 Once logged in the user can customize the links, background, colors, or text on the page to their choosing. Simply save the changes and the website will be updated with the new changes.
 
-The admin interface has 4 objects that allow customization of the main page. Currently only 1 object (the default one) is supported. In the future I hope to add the option for users to create templates and chose the object they want displayed on the webpage.   
+## Setting up the Webpage
+
+In order to customize the webpage to your liking log into the admin interface and change the default values for the admin objects described below. The admin interface has 4 objects that allow customization of the main page. Currently only 1 object (the default one) is supported. In the future I hope to add the option for users to create templates and chose the object they want displayed on the webpage.   
 
 #### styleEditor
 The styleEditor object (1) contains the following CSS style options.
