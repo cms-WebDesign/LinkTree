@@ -19,6 +19,7 @@ sudo chown -R $USER:$USER .
 
 ## Getting Started
 ```
+docker-compose build
 docker-compose up
 ```
 Open another terminal and run the following commands to create the database superuser.
@@ -40,6 +41,21 @@ Once the container is up and the admin account is created head on over to the /a
 
 Once logged in the user can customize the links, background, colors, or text on the page to their choosing. Simply save the changes and the website will be updated with the new changes.
 
+The admin interface has 4 objects that allow customization of the main page. Currently only 1 object (the default one) is supported. In the future I hope to add the option for users to create templates and chose the object they want displayed on the webpage.   
+
+#### styleEditor
+The styleEditor object (1) contains the following CSS style options.
+  * Title - Changes the title of the webpage.
+  * Link_Color - Changes the color of the links.
+  * Link_Font_Style - Changes the Font Style of the links.
+  * Link_Background_Color - Changes the background color of the section where the links are displayed.
+  * Link_Hover_Color - Changes the color of the link when a user hovers over it with a mouse.
+
+#### backgroundPic
+backgroundPic object (1) stores the image used for the background of the webpage.
+
+#### profilePic
+profilePic object (1) stores the profile picture displayed on the webpage.
 
 # License
 The MIT License (MIT)
