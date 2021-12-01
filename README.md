@@ -55,6 +55,9 @@ backgroundPic object (1) stores the image used for the background of the webpage
 #### profilePic
 profilePic object (1) stores the profile picture displayed on the webpage.
 
+#### Linkss
+The linkss object (1) stores the website address for the 7 links on the main webpage.
+
 # License
 The MIT License (MIT)
 
