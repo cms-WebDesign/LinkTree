@@ -39,15 +39,15 @@ Once logged in the user can customize the links, background, colors, or text on 
 
 ## Setting up the Webpage
 
-In order to customize the webpage to your liking log into the admin interface and change the default values for the admin objects described below. The admin interface has 4 objects that allow customization of the main page. Currently only 1 object (the default one) is supported. In the future I hope to add the option for users to create templates and chose the object they want displayed on the webpage.   
+In order to customize the webpage to your liking log into the admin interface and change the default values for the admin models described below. The admin interface has 5 different models that allow customization of the main page. Currently only the contents of `object (1)` (the default one) will be rendered on the webpage. In the future I hope to add the option for users to create templates and chose the object (i.e. `object (1)` or `object (2)`) they want rendered on the webpage.   
 
 #### styleEditor
-The styleEditor object (1) contains the following CSS style options.
-  * Title - Changes the title of the webpage.
-  * Link_Color - Changes the color of the links.
-  * Link_Font_Style - Changes the Font Style of the links.
-  * Link_Background_Color - Changes the background color of the section where the links are displayed.
-  * Link_Hover_Color - Changes the color of the link when a user hovers over it with a mouse.
+The `styleEditor object (1)` contains the following CSS style options.
+  * `Title` - Changes the title of the webpage.
+  * `Link_Color` - Changes the color of the links.
+  * `Link_Font_Style` - Changes the Font Style of the links.
+  * `Link_Background_Color` - Changes the background color of the section where the links are displayed.
+  * `Link_Hover_Color` - Changes the color of the link when a user hovers over it with a mouse.
 
 #### backgroundPic
 The `backgroundPic object (1)` stores the image used for the background of the webpage.
