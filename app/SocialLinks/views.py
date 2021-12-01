@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import styleEditor, profilePic, backgroundPic, links
+from .models import *
 
 # Create your views here.
 
@@ -9,6 +9,7 @@ def index(request):
     imageModel = profilePic.objects.get(pk=1)
     backgroundModel = backgroundPic.objects.get(pk=1)
     linksModel = links.objects.get(pk=1)
+    linkTextModel = linkText.objects.get(pk=1)
 
     return render(
         request,
@@ -29,6 +30,13 @@ def index(request):
             "link4":linksModel.link4,
             "link5":linksModel.link5,
             "link6":linksModel.link6,
-            "link7":linksModel.link7
+            "link7":linksModel.link7,
+            "linkText1":linkTextModel.linkText1,
+            "linkText2":linkTextModel.linkText2,
+            "linkText3":linkTextModel.linkText3,
+            "linkText4":linkTextModel.linkText4,
+            "linkText5":linkTextModel.linkText5,
+            "linkText6":linkTextModel.linkText6,
+            "linkText7":linkTextModel.linkText7
         }
     )

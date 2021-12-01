@@ -25,3 +25,12 @@ class links(models.Model):
     link5 = models.CharField(max_length=100, default="https://www.contactme.com")
     link6 = models.CharField(max_length=100, default="https://www.link6.com")
     link7 = models.CharField(max_length=100, default="https://www.link7.com")
+
+class linkText(models.Model):
+    linkText1 = models.CharField(max_length=100, default="Instagram")
+    linkText2 = models.CharField(max_length=100, default="Facebook")
+    linkText3 = models.CharField(max_length=100, default="Namecheap")
+    linkText4 = models.CharField(max_length=100, default="Email")
+    linkText5 = models.CharField(max_length=100, default="Contact Me")
+    linkText6 = models.CharField(max_length=100, default="Link 6")
+    linkText7 = models.CharField(max_length=100, default="Link 7")

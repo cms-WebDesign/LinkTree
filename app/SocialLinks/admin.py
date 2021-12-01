@@ -1,6 +1,6 @@
 from django.contrib import admin
 from SocialLinks.forms import *
-from .models import profilePic, backgroundPic, styleEditor
+from .models import *
 
 # Register your models here.
 
@@ -11,3 +11,4 @@ class styleEditor(admin.ModelAdmin):
 admin.site.register(profilePic)
 admin.site.register(backgroundPic)
 admin.site.register(links)
+admin.site.register(linkText)

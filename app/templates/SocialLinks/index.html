@@ -26,29 +26,29 @@
         <img id="userPhoto" src="{{ profile_pic.url }}" alt="{{ profile_pic_title }}">
     </div>
     <div id="links">
-        <a class="link" href="{{ link1 }}" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+        <a class="link" href="{{ link1 }}" target="_blank"><i class="fa fa-instagram"></i> {{ linkText1 }}</a>
 
         <a class="link" href="{{ link2 }}" target="_blank"><i class="fa fa-facebook"
-                aria-hidden="true"></i> Facebook</a>
+                aria-hidden="true"></i> {{ linkText2 }}</a>
 
         <a class="link" href="{{ link3 }}" target="_blank"><i class="fa fa-star-o"
                 aria-hidden="true"></i>
-            Visit My Website</a>
+            {{ linkText3 }}</a>
 
         <a class="link" href="{{ link4 }}" target="_blank"><i class="fa fa-envelope"
                 aria-hidden="true"></i>
-                Contact Me </a>
+                {{ linkText4 }}</a>
 
         <a class="link" href="{{ link5 }}" target="_blank"><i
                 class="fa fa-address-card-o " aria-hidden="true"></i>
-            Book An Appointment</a>
+            {{ linkText5 }}</a>
 
         <a class="link"  href="{{ link6 }}" target="_blank"><i
                       class="fa fa-shopping-bag" aria-hidden="true"></i>
-                Purchase Products</a>
+                {{ linkText6 }}</a>
 
         <a class="link" href="{{ link7 }}" target="_blank"><i class="fa fa-building" aria-hidden="true"></i>
-            Le Blanc Salon & Suites</a>
+            {{ linkText7 }}</a>
 
     </div>
     <footer style="color:{{ linkcolor }}">
@@ -56,5 +56,4 @@
       </footer>
 
 </body>
-
 </html>
