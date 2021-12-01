@@ -50,13 +50,16 @@ The styleEditor object (1) contains the following CSS style options.
   * Link_Hover_Color - Changes the color of the link when a user hovers over it with a mouse.
 
 #### backgroundPic
-backgroundPic object (1) stores the image used for the background of the webpage.
+The `backgroundPic object (1)` stores the image used for the background of the webpage.
 
 #### profilePic
-profilePic object (1) stores the profile picture displayed on the webpage.
+The `profilePic object (1)` stores the profile picture displayed on the webpage.
 
 #### Linkss
-The linkss object (1) stores the website address for the 7 links on the main webpage.
+The `linkss object (1)` stores the website address for the 7 links on the main webpage.
+
+#### linkText
+The `linkText object (1)` stores the names for each of the website addresses set in the `linkss` object above.
 
 # License
 The MIT License (MIT)
