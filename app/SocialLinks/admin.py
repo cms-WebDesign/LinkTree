@@ -10,3 +10,4 @@ class styleEditor(admin.ModelAdmin):
 
 admin.site.register(profilePic)
 admin.site.register(backgroundPic)
+admin.site.register(links)
