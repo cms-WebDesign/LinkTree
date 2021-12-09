@@ -38,21 +38,21 @@ Once the repository is installed go back to the cPanel homepage and scroll down 
 ## Creating a Superuser/Admin account
 To create a superuser account we will need to access the cPanel Terminal or SSH into our host.
   1. Before leaving the `Python Web Application Creation` page scroll to the top and copy the command in the blue box.
-      * `source /home/<USERNAME>/virtualenv/repositories/SocialLinks/3.8/bin/activate && cd /home/<USERNAME>/repositories/SocialLinks` Note: This is what the command should look like, this will enter the `Python` virtual environment via the command line.
+      * `source /home/<USERNAME>/virtualenv/repositories/SocialLinks/3.8/bin/activate && cd /home/<USERNAME>/repositories/SocialLinks`
+      Note: This is what the command should look like, this will enter the `Python` virtual environment via the command line.
   2. Scroll down to the `Advanced` tab and select `Terminal`.
   3. Enter the command above in step 1.
   4. Run the following commands:
 
     Note: Be sure to enter a secure username and password as this is the master account to the web application.
-
     This is also how you would upgrade pip if needed to in the previous section `python -m pip install --upgrade pip`.
+
     ```
     python manage.py createsuperuser
-
     python manage.py makemigrations
-    
     python manage.py migrate
     ```
+
   5. The web application should be ready to go. Head on over back to the `Python Web Application` and select `Start App`
 
 ## Getting Started
