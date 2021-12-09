@@ -22,7 +22,7 @@ from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 urlpatterns = [
     path('', include('SocialLinks.urls')),
     path('admin/', admin.site.urls),
-] 
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
 
 # Serving the media files in development mode
 if settings.DEBUG:

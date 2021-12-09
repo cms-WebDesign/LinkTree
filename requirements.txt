@@ -1,0 +1,7 @@
+Django
+djangorestframework==3.6.3
+markdown
+django-filter==1.1
+requests
+gunicorn==19.6.0
+Pillow==7.2.0
