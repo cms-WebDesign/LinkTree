@@ -6,7 +6,7 @@ Social links is designed to be an open-source version of the [LinkTree](https://
 My wife is a Hair and Makeup Artist, and her industry relies heavily on the use of social media for marketing and to display her portfolio of work. Because of this she has an Instagram, Facebook, Website, and other links to products she sells. My goal was to create a custom made LinkTree under her own custom domain [maria.maneobsessions.me](https://maria.maneobsessions.me/) and give her the ability to update those links, profile pictures, background images, and color schemes without directly editing the HTML file. Creating a basic HTML page was easy but I wanted to add more functionality to the page and give her the ability update the page herself without relying on me. My end goal is to create an easy-to-use web application that gives other stylist the ability to create a single easy to use webpage. I have plans for more customization and other functionality that I want to bring in the future.
 
 Note: The Installation and Getting Started steps assume the user has already secured a website domain and hosting provider via NameCheap.
-This application was designed to be used with the NameCheap cPanel Python Web Application Plug. I included a `docker-compose.yaml` and `dockerfile` if you want to run the application on AWS or another hosting provider via Docker. NameCheap does not support Docker so I had to settle with the cPanel Python Application. See the `docker` folder for the files and insturctions
+This application was designed to be used with the NameCheap cPanel Python Web Application Plug. I included a `docker-compose.yaml` and `dockerfile` if you want to run the application on AWS or another hosting provider via Docker. NameCheap does not support Docker so I had to settle with the cPanel Python Application. See the `docker` folder for the files and instructions.
 
 ## Repository Installation
 Login to your cPanel and scroll down to the `Files` section and select `Git Version Control`. We will need to `Create` a new repository.
@@ -38,19 +38,22 @@ Once the repository is installed go back to the cPanel homepage and scroll down 
 ## Creating a Superuser/Admin account
 To create a superuser account we will need to access the cPanel Terminal or SSH into our host.
   1. Before leaving the `Python Web Application Creation` page scroll to the top and copy the command in the blue box.
-    * `source /home/<USERNAME>/virtualenv/repositories/SocialLinks/3.8/bin/activate && cd /home/<USERNAME>/repositories/SocialLinks` Note: This is what the command should look like, this will enter the `Python` virtual environment via the command line.
+      * `source /home/<USERNAME>/virtualenv/repositories/SocialLinks/3.8/bin/activate && cd /home/<USERNAME>/repositories/SocialLinks` Note: This is what the command should look like, this will enter the `Python` virtual environment via the command line.
   2. Scroll down to the `Advanced` tab and select `Terminal`.
   3. Enter the command above in step 1.
   4. Run the following commands:
+
     Note: Be sure to enter a secure username and password as this is the master account to the web application.
+
     This is also how you would upgrade pip if needed to in the previous section `python -m pip install --upgrade pip`.
     ```
     python manage.py createsuperuser
+
     python manage.py makemigrations
+    
     python manage.py migrate
     ```
   5. The web application should be ready to go. Head on over back to the `Python Web Application` and select `Start App`
-
 
 ## Getting Started
 Once the application is up and the admin account is created head on over to the websitedomain/admin/ tab and login.
