@@ -46,11 +46,11 @@ To create a superuser account we will need to access the cPanel Terminal or SSH 
     Note: Be sure to enter a secure username and password as this is the master account to the web application.
     This is also how you would upgrade pip if needed to in the previous section `python -m pip install --upgrade pip`.
 
-    ```
-    python manage.py createsuperuser
-    python manage.py makemigrations
-    python manage.py migrate
-    ```
+```
+python manage.py createsuperuser
+python manage.py makemigrations
+python manage.py migrate
+```
 
   5. The web application should be ready to go. Head on over back to the `Python Web Application` and select `Start App`
 
