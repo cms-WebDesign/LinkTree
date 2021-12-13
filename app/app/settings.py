@@ -121,7 +121,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
-# Static files are server via whitenoise
+# Static files are served via whitenoise
 STATIC_URL = '/staticfiles/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles/')
 STATICFILES_DIRS = (
@@ -129,7 +129,9 @@ STATICFILES_DIRS = (
 )
 
 MEDIA_URL = '/media/'
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
+# Note: You will need to update the <user> variable and change 'repositories.SocialLinks'
+# to your domain or subdomains root folder in order for NameCheap to serve the media files.
+MEDIA_ROOT ='/home/<user>/repositories.SocialLinks/media/'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
